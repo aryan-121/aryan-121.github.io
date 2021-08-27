@@ -1,10 +1,13 @@
 {
+  "homepage": "https://aryan-121.github.io/my-portfolio",
   "name": "simplefolio",
   "version": "1.0.1",
   "private": "true",
   "description": "A clean, beautiful and responsive portfolio template for Developers!",
   "main": "index.js",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build",
     "start": "webpack serve --config webpack.dev.js --open",
     "build": "webpack --config webpack.prod.js"
   },

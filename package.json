@@ -21,6 +21,7 @@
   "bugs": {
     "url": "https://github.com/cobidev/simplefolio/issues"
   },
+    
   "homepage": "https://github.com/cobidev/simplefolio#readme",
   "devDependencies": {
     "clean-webpack-plugin": "^3.0.0",
